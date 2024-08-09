@@ -9,5 +9,7 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - https://github.com/sicreative/VoltageShift This is the best tool to write into the msr of the cpu when macos already booted
 - https://github.com/calasanmarko/TurboMac This resource shows runable commands that can modify the root of the newer system and what files need to be dealt with
 - https://github.com/balfabb87/GoodbyeBigSlow.kext This resource is what we need to manage cpu thermal after deleting the files
-- https://github.com/syscl/CPUTune/issues/21 This resource discuss a little why modify msr that controls the bd_prochot does not work and what to delete in system files.
-- https://github.com/benbaker76/Hackintool calculator that can convert binary to hex. For thoese have a bad math or just lazy like me.
+- https://github.com/syscl/CPUTune/issues/21 This resource discuss a little **why** modifying msr that controls the **bd_prochot does not work** and what to delete in system files.
+- https://github.com/benbaker76/Hackintool Calculator that can convert binary to hex. For thoese have a bad math or just lazy like me.
+- https://github.com/dortania/KdkSupportPkg/releases When running TurboMac things you will need this.
+- https://dortania.github.io/OpenCore-Legacy-Patcher/TROUBLESHOOTING.html#stuck-on-boot-after-root-patching This will help when you mess up your system and get back up again.
