@@ -4,6 +4,10 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - you need to dignose u computer first for any potaintial issue causing heat and throttle, incase of damaging your hardware before appling this repo.
 - eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents.
 - Xcode
+# Principals
+coming soon
+# Installation
+coming soon
 # Resources
 - https://github.com/cocafe/msr-utility/issues/8#issuecomment-1853242674 This resource discuss what a msr means to cpu
 - https://github.com/sicreative/VoltageShift This is the best tool to write into the msr of the cpu when macos already booted
