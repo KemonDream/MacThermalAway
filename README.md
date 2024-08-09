@@ -2,11 +2,11 @@
 This repo will share a prospective and comprehensive view on how to stop macbook from throttling with a bad battery/a vrm heating/bd prochot. Os version supports BigSur to Sequoia, from 11 to 15. IF you know the principles you could apply to any version of Oses and hardwares. 
 # Pre
 - you need to dignose u computer first for any potaintial issue causing heat and throttle, incase of damaging your hardware before appling this repo.
-- eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents.
+- eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents. Reset SMC and common methods may solve your problem.
 - Xcode
 # Principals
 coming soon
-# Installation
+# Install Guide
 coming soon
 # Resources
 - https://github.com/cocafe/msr-utility/issues/8#issuecomment-1853242674 This resource discuss what a msr means to cpu
