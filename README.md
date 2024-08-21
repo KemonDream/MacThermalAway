@@ -28,8 +28,8 @@ This repo will share a prospective and comprehensive view on how to stop macbook
   - Will include scripts marked its roles. Run carefully cause there're highly dangerous code that modified the root system. You should check each line for safe.
   - VoltageShift at https://github.com/sicreative/VoltageShift build or using provided unix files.
 - Step 4 : Turn off SIP and authenticated_root completely.(We doing root modifications and third party kext injection.)
-  -Boot into recovery...
--Step 5 : 
+  - Boot into recovery...
+- Step 5 : 
 # Known Issues
 - Login progress bar may be a much slower loading than usual
 - Login items may be slow due to throttle (bd_prochot).
@@ -37,18 +37,18 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - Crashing and overheat may happend more often.
 # Resources
 - https://github.com/cocafe/msr-utility/issues/8#issuecomment-1853242674
-  -This resource discuss what a msr means to cpu
+  - This resource discuss what a msr means to cpu
 - https://github.com/sicreative/VoltageShift
-  -This is the best tool to write into the msr of the cpu when macos already booted
+  - This is the best tool to write into the msr of the cpu when macos already booted
 - https://github.com/calasanmarko/TurboMac
-  -This resource shows runable commands that can modify the root of the newer system and what files need to be dealt with
+  - This resource shows runable commands that can modify the root of the newer system and what files need to be dealt with
 - https://github.com/balfabb87/GoodbyeBigSlow.kext
-  -This resource is what we need to manage cpu thermal after deleting the files
+  - This resource is what we need to manage cpu thermal after deleting the files
 - https://github.com/syscl/CPUTune/issues/21
-  -This resource discuss a little **why** modifying msr that controls the **bd_prochot does not work** and what to delete in system files.
+  - This resource discuss a little **why** modifying msr that controls the **bd_prochot does not work** and what to delete in system files.
 - https://github.com/benbaker76/Hackintool
-  -Calculator that can convert binary to hex. For thoese have a bad math or just lazy like me.
+  - Calculator that can convert binary to hex. For thoese have a bad math or just lazy like me.
 - https://github.com/dortania/KdkSupportPkg/releases
-  -When running TurboMac things you will need this.
+  - When running TurboMac things you will need this.
 - https://dortania.github.io/OpenCore-Legacy-Patcher/TROUBLESHOOTING.html#stuck-on-boot-after-root-patching
-  -This will help when you mess up your system and get back up again.
+  - This will help when you mess up your system and get back up again.
