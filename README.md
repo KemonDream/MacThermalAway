@@ -9,11 +9,11 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - Stable Global Netwrok Connection
 # Concepts
  ## SO, How do we control the temperature of the PC ? ##
--For CPU, this is a huge and complex monitor and control system, but we can simplify them into three parts: Thermal, MSRs and OSs.
+- For CPU, this is a huge and complex monitor and control system, but we can simplify them into three parts: Thermal, MSRs and OSs.
   - Thermal prevent CPU or iGPU from burning themselese from the inside, while MSR codes like BD_Prochot and others keep other components from firing the cores. The OS also do a lot things.
   - Since the MSR or Micro Specific Registers may be read and write by any software and may cause safety issues. OSes like MacOS may take over the function by using custom designed CPU and MSRs from intel (like my Macbook CPU i5-1038ng7) or just make one by themselves(((.
   - A Complex system may or may not be better for your personal usage, it may be too strict or too loose that can cause performance lag or heat.
--In this case, to know the heat management superior is a key to the answer.
+- In this case, to know the heat management superior is a key to the answer.
   - If using MSR tools like Voltageshift and get no effects. Consider OS.
   - As I know, The MacOS using kernal kexts like IOPlatformPluginFamily and X86PlatformPlugin to control Intel CPU functions . Turbo, Power, Sleep and so on.
   - The sensors on the motherboard will not communicate directly to the cpu but the MacOS. Probably.
