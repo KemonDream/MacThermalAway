@@ -35,7 +35,7 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - Login items may be slow due to throttle (bd_prochot).
 - Bluetooth would get stuck at boot and a while before it can be used for good.(Thanks to a bilibili fan mentioned this issue)
 - Crashing and overheat may happend more often.
-# Resources
+# Resources and Description 
 - https://github.com/cocafe/msr-utility/issues/8#issuecomment-1853242674
   - This resource discuss what a msr means to cpu
 - https://github.com/sicreative/VoltageShift
@@ -52,3 +52,5 @@ This repo will share a prospective and comprehensive view on how to stop macbook
   - When running TurboMac things you will need this.
 - https://dortania.github.io/OpenCore-Legacy-Patcher/TROUBLESHOOTING.html#stuck-on-boot-after-root-patching
   - This will help when you mess up your system and get back up again.
+- /335592-sdm-vol-4.pdf
+  - This pdf is a official description of MSRs on each generation of intel chips. Not very complete but useful enough for turbo adjustments.
