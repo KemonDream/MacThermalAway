@@ -8,7 +8,7 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - A basic English reading level for foreign materials reading.(Well at least a patient to figure them out. Like this repo written in English, while the writer is a native Chinese.)
 - Stable Global Netwrok Connection
 # Concepts
- ## SO, How do we control the temperature of the PC ? ##
+ ## How CPU's Performance, Power and Heat balance? ##
 - For CPU, this is a huge and complex monitor and control system, but we can simplify them into three parts: Thermal, MSRs and OSs.
   - Thermal prevent CPU or iGPU from burning themselese from the inside, while MSR codes like BD_Prochot and others keep other components from firing the cores. The OS also do a lot things.
   - Since the MSR or Micro Specific Registers may be read and write by any software and may cause safety issues. OSes like MacOS may take over the function by using custom designed CPU and MSRs from intel (like my Macbook CPU i5-1038ng7) or just make one by themselves(((.
