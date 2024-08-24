@@ -1,0 +1,7 @@
+##Use Apple Script on Automator
+on run {input, parameters}
+	do shell script "~/voltageshift write 0x1fc 64005E
+~/voltageshift write 0x1a0h 850089
+ ~/voltageshift power 25 30" with administrator privileges
+	return input
+end run
