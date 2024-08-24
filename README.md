@@ -8,7 +8,7 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - A basic English reading level for foreign materials reading.(Well at least a patient to figure them out. Like this repo written in English, while the writer is a native Chinese.)
 - Stable Global Netwrok Connection
 # Concepts
- ## How CPU's Performance, Power and Heat balance? ##
+ ## How CPU's Performance, Power and Heat balance and what can we do? ##
 - For CPU, this is a huge and complex monitor and control system, but we can simplify them into three parts: Thermal, MSRs and OSs.
   - Thermal prevent CPU or iGPU from burning themselese from the inside, while MSR codes like BD_Prochot and others keep other components from firing the cores. The OS also do a lot things.
   - Since the MSR or Micro Specific Registers may be read and write by any software and may cause safety issues. OSes like MacOS may take over the function by using custom designed CPU and MSRs from intel (like my Macbook CPU i5-1038ng7) or just make one by themselves(((.
@@ -16,7 +16,7 @@ This repo will share a prospective and comprehensive view on how to stop macbook
 - In this case, to know the heat management superior is a key to the answer.
   - If using MSR tools like Voltageshift and get no effects. Consider OS.
   - As I know, The MacOS using kernal kexts like IOPlatformPluginFamily and X86PlatformPlugin to control Intel CPU functions . Turbo, Power, Sleep and so on.
-  - The sensors on the motherboard will not communicate directly to the cpu but the MacOS. Probably.
+  - The sensors on the motherboard will not communicate directly to the CPU. Probably. So the OS takes the main part in this whole thing.
 # Install Guide 
 - Step 1 : Check prerequisites again. (Well, though my macbook is a tough guy, i don't know about you. Since this repo is now in a long test progress, i strongly not recommend you applying it on your working computer.)
 - Step 1.1 : You may check what causing CPU throttle by using ThrottleStop by TechPowerUp on Windows Bootcamp. In my case, the BD_PROCHOT title in "Limits" will turn red when doing p95 test for a while on Windows.
