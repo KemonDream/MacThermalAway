@@ -1,7 +1,11 @@
 ##Use Apple Script on Automator
+##You need VoltageShift installed
 on run {input, parameters}
 	do shell script "~/voltageshift write 0x1fc 64005E
+#disable bd prochot
 ~/voltageshift write 0x1a0h 850089
+#enable or disable turbo base on Intel Official MSR Description 
  ~/voltageshift power 25 30" with administrator privileges
+#Setting Power limit on your need pl2 and pl1
 	return input
 end run
