@@ -49,6 +49,7 @@ echo "Root label: $ROOT_LABEL" ##Means determinating root disk label
 - Login items may be slow due to throttle (bd_prochot, kext conflicts).
 - Bluetooth would get stuck at boot and a while before it can be used for good.(Thanks to a bilibili fan mentioned this issue)
 - Crashing and overheat may happend more often.(May because the beta OS I'm using.)
+- Wake from Sleep or plug in buggy usb devices may cause serious throlling(not BD_Prochot but some regular unknown laggy). The reason is vague. May because of root and kext modifying.
 # Resources and Description 
 - https://github.com/cocafe/msr-utility/issues/8#issuecomment-1853242674
   - This resource discuss what a msr means to cpu
