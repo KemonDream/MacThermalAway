@@ -30,7 +30,7 @@ This repo will help you with exploding your macbook and trashing any thermal pro
 - Step 4 : Turn off SIP and authenticated_root completely.(We doing root modifications and third party kext injection.)
   - Boot into recovery...
 - Step 5 :
-- Step N-1: Use repo "TurboMac" Install-Script. And we only need a few line of it.
+- Step N-1: "TurboMac" Install-Script. And we only need a few line of it.
   ## mount System Current Booting Snapshot to a folder, and after that we create a new one. ##
   - ROOT_LABEL=`df | grep /$ | awk '{print $1;}' | grep -o ".*disk\d*s\d*"`
 echo "Root label: $ROOT_LABEL" ##Means determinating root disk label
@@ -40,9 +40,10 @@ echo "Root label: $ROOT_LABEL" ##Means determinating root disk label
   - sudo mv -f $HOME/nonroot/System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns $HOME/BackupKexts/
   - sudo kmutil install -u -v --update-preboot -R $HOME/nonroot ##will update preboot and kext cache
   - sudo bless --folder $HOME/nonroot/System/Library/CoreServices --bootefi --create-snapshot ##snapshot the root system and boot from it
-- Step N : The kext that I'am currently using: GoodbyeBigSlow NoBdProcHot TurboMac
+- Step N : Install kext
+  The kext that I'am currently using: GoodbyeBigSlow NoBdProcHot TurboMac
   - we can run "kextstat | grep -v com.apple" to determine whitch kext is really loaded.
-  - In my case, I have installed those three kext but NoBdProcHot was not loaded. And I have to run a automatic code on Automator to enable all the performances.
+  - In my case, I have installed those three kext but NoBdProcHot was not loaded. And I have to run a automatic code on Automator to manually diable BD_PROCHOT.
     -The code for Automator will be provided.
 # Known Issues
 - Not stable for now
