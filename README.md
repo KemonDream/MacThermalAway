@@ -19,7 +19,7 @@ This repo will help you with exploding your macbook and trashing any thermal pro
   - The sensors on the motherboard will not communicate directly to the CPU. Probably. So the OS takes the main part in this whole thing.
 # Install Guide 
 - Step 1 : Check prerequisites again. (Well, though my macbook is a tough guy, i don't know about you. Since this repo is now in a long test progress, i strongly not recommend you applying it on your working computer.)
-- Step 1.1 : You may check what causing CPU throttle by using ThrottleStop by TechPowerUp on Windows Bootcamp. In my case, the BD_PROCHOT title in "Limits" will turn red when doing p95 test for a while on Windows.
+- Step 1.1 : You may check what causing CPU throttle by using ThrottleStop by TechPowerUp on Windows Bootcamp. In my case, the BD_PROCHOT title in "Limits" will turn red when doing p95 test for a while on Windows. By running p95 you could also know your mac's thermal limits. When it gets too hot, the cpu will shutdown to prevent damaged.
 - Step 2 : Install Developer Tools
   - Xcode either in AppStore or at https://developer.apple.com for a suitable version.
   - Xcode CommandLineTools simply by runing "xcode-select --install".
