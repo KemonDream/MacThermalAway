@@ -1,6 +1,6 @@
 # MacThermalAway
 This repo will help you with exploding your macbook and trashing any thermal protection. Whether to stop your macbook from throttling with a bad battery,  vrm heating or bd prochot. Os version supports BigSur to Sequoia, from 11 to 15. IF you know the principles you could apply to any version of Oses and hardwares. And by saying exploding and trashing, I mean this may be the last way you can try.
-- This repo tested on Macbook pro 16,1, CPU Intell-i5-1038ng7 ,no dedicate Gpu, MacOS Sequoia Beta2, File-Volt on. Battery in Service State, bd_prochot  and CPU throttle a lot to 0.2Ghz that drove me crazy.(Modern Computer running at 200Mhz can be something dramatic. The touching temperature won't bounce you knee cause the cpu is at around 50 celsius--you can cold the cpu to ill under this temp.)
+- This repo tested on Macbook pro 16,1 , Intel-i5-1038ng7 ,iGpu, MacOS Sequoia Beta2, File-Volt on. Battery in Service State, bd_prochot  and CPU throttle a lot to 0.2Ghz that drove me crazy.(Modern Computer running at 200Mhz can be something dramatic. The touching temperature won't bounce you knee cause the cpu is at around 50 celsius--that could cold the cpu to ill!!!)
 # Pre
 - you need to dignose u computer first for any potaintial issue causing heat and throttle, incase of damaging your hardware before appling this repo.
 - eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents. Reset SMC and common methods may solve your problem.
