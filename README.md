@@ -5,7 +5,7 @@ This repo will help you with exploding your macbook and trashing any thermal pro
 - you need to dignose u computer first for any potaintial issue causing heat and throttle, incase of damaging your hardware before appling this repo.
 - eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents. Reset SMC and common methods may solve your problem.
 - Xcode
-- A basic English reading level for foreign materials reading.(Well at least a patient to figure them out. Like this repo written in English, while the writer is a native Chinese.)
+- A basic English reading patience.
 - Stable Global Netwrok Connection
 # Concepts
  ## How CPU's Performance, Power and Heat balance and what can we do? ##
@@ -45,6 +45,7 @@ echo "Root label: $ROOT_LABEL" ##Means determinating root disk label
   - we can run "kextstat | grep -v com.apple" to determine whitch kext is really loaded.
   - In my case, I have installed those three kext but NoBdProcHot was not loaded. And I have to run a automatic code on Automator to manually diable BD_PROCHOT.
     -The code for Automator will be provided.
+ - Step X : Test your System stability by running Cinebench or p95 under MacOS. Test known issues for good.
 # Known Issues
 - Not stable for now
 - Login progress bar may be a much slower loading than usual.
