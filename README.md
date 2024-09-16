@@ -3,7 +3,7 @@ This repo will help you with exploding your macbook and trashing any thermal pro
 - This repo tested on Macbook pro 16,1 , Intel-i5-1038ng7 ,iGpu, MacOS Sequoia Beta2, File-Volt on. Battery in Service State, bd_prochot  and CPU throttle a lot to 0.2Ghz that drove me crazy.(Modern Computer running at 200Mhz can be something dramatic. The touching temperature won't bounce you knee cause the cpu is at around 50 celsius--that could cold the cpu to ill!!!)
 # Pre
 - you need to dignose u computer first for any potaintial issue causing heat and throttle, incase of damaging your hardware before appling this repo.
-- eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents. Reset SMC and common methods may solve your problem.
+  eg. Take off the back pack and add some thermal pattles on vrm chips and other heating compounents.
 - Xcode
 - A basic English reading patience.
 - Stable Global Netwrok Connection
