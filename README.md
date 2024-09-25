@@ -60,12 +60,14 @@ echo "Root label: $ROOT_LABEL" ##Means determinating root disk label
  - Step X : Test your System stability by running Cinebench or p95 under MacOS. Test known issues for good.
 # Known Issues
 - Not stable for now
-- Login progress bar may be a much slower loading than usual.
-- Login items may be slow due to throttle (bd_prochot, kext conflicts).
-- Bluetooth would get stuck at boot and a while before it can be used for good.(Thanks to a bilibili fan mentioned this issue)
-- Crashing and overheat may happend more often.(May because the beta OS I'm using.)
-- Wake from Sleep or plug in buggy usb devices may cause serious throlling(not BD_Prochot but some regular unknown laggy). The reason is vague. May because of root and kext modifying.
-- Uploading things from Safari may freeze OS
+- Plan A is under testing.
+- Only on Plan B
+  - Login progress bar may be a much slower loading than usual.
+  - Login items may be slow due to throttle (bd_prochot, kext conflicts).
+  - Bluetooth would get stuck at boot and a while before it can be used for good.(Thanks to a bilibili fan mentioned this issue)
+  - Crashing and overheat may happend more often.(May because the beta OS I'm using.)
+  - Wake from Sleep or plug in buggy usb devices may cause serious throlling(not BD_Prochot but some regular unknown laggy). The reason is vague. May because of root and kext modifying.
+  -  Uploading things from Safari may freeze OS
 # Resources and Description 
 - https://github.com/dortania/Opencore-Legacy-Patcher/releases
   - OpenCore Legacy Patcher
