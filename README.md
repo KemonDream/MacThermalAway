@@ -19,7 +19,7 @@ This repo will share multiple ways to issue the Thermal Problem on newer MacOS.(
   - The sensors on the motherboard will not communicate directly to the CPU. Probably. So the OS takes the main part in this whole thing.
   - **UPDATE**: I ignored how strong the bootloader affect this whole thing. On MacOS, it's the BridgeOS.
   - 
-# Install Plan A (Currently tesing, working fine)
+# Install Plan A (Currently tesing, working fine, Recommand)
 - **Use OCPL to create OpenCore bootloader and load your MacOS by pressing OPTION on startup.**
     - Step 1: Download the latest OCPL at https://github.com/dortania/Opencore-Legacy-Patcher/releases
     - Step 1.1: Revert root patch in "Post-install root patch" tab if you did some root modification or something.
