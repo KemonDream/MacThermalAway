@@ -27,6 +27,7 @@ This repo will share multiple ways to issue the Thermal Problem on newer MacOS.(
     - Step 2.5: Leave others default or choose at your own appetite and click return.
     - Step 3: You can now click "Build and Install OpenCroe" to follow  their instructions. This action should copy OpenCore to your Bootdisk EFI patition. No System files would be hramed.
     - Step 4: Reboot your System and SO fxxxking fast.
+      Tip: don't forget to hold OPTION button when booting
       
 # Install Plan B
 - Step 1 : Check prerequisites again. (Well, though my macbook is a tough guy, i don't know about you. Since this repo is now in a long test progress, i strongly not recommend you applying it on your working computer.)
